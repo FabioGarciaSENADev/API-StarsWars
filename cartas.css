@@ -1,0 +1,27 @@
+.carta1{
+    background-color: aqua;
+}
+.carta2{
+    background-color: azure;
+}
+.carta3{
+    background-color: aquamarine;
+}
+.carta4{
+    background-color: blueviolet;
+}
+.carta5{
+    background-color: brown;
+}
+.zonaSobres{
+    margin: 0 auto;
+    width: 90%;
+    background-color: blue;
+    height: 100px;
+}
+.sobre{
+    display: inline-block;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+}

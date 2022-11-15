@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cartas.css">
+</head>
+
+<body onload="timerPrueba()">
+    <nav>
+        <a onclick="cambioPagina()" href="/sobres.html">Sobres</a>
+        <a onclick="cambioPagina()" href="/album.html">Album</a>
+    </nav>
+
+    <button onclick="prueba()">Tiempo</button>
+    <p id="contador">contador</p>
+
+    <section class="zonaSobres">
+        <div class="sobre" id="sobre1"></div>
+        <div class="sobre" id="sobre2"></div>
+        <div class="sobre" id="sobre3"></div>
+        <div class="sobre" id="sobre4"></div>
+    </section>
+
+    <section class="zonaCartas">
+        <div class="carta1" id="carta1"></div>
+        <div class="carta2" id="carta2"></div>
+        <div class="carta3" id="carta3"></div>
+        <div class="carta4" id="carta4"></div>
+        <div class="carta5" id="carta5"></div>
+    </section>
+
+    <button onclick="prueba1()"> prueba</button>
+
+
+    <script src="/index.js"></script>
+    <script src="/obtenerlaminas.js"></script>
+</body>
+
+</html>
